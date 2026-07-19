@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Input {
-    private Counter counter = new Counter();
+    private final Counter counter = new Counter();
 
     void readUntilStop() {
         Scanner input = new Scanner(System.in);
