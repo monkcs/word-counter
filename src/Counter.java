@@ -29,7 +29,7 @@ public class Counter {
     }
 
     int getLines() {  return lines; }
-    int getCharacters() {return characters; }
+    int getCharacters() { return characters; }
     int getWords() { return words; }
     String getLongestWord() { return longestWord; }
 
