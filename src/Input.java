@@ -10,10 +10,10 @@ public class Input {
             final var line = input.nextLine();
 
             if (!counter.addLine(line)) {
-                IO.println("lines: %s".formatted(counter.getLines()));
-                IO.println("characters: %s".formatted(counter.getCharacters()));
-                IO.println("words: %s".formatted(counter.getWords()));
-                IO.println("longest word: %s".formatted(counter.getLongestWord()));
+                IO.println("lines: " + counter.getLines());
+                IO.println("characters: " + counter.getCharacters());
+                IO.println("words: " + counter.getWords());
+                IO.println("longest word: " + counter.getLongestWord());
 
                 return;
             }
